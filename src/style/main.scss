@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import "../../bower_components/normalize.css/normalize.css";
+
+/*
+* Custom
+*/
+@import "partials/app";
+
+// @import "../../node_modules/slick-carousel/slick/slick.scss";
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url(../fonts/NarrowBold.ttf);
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url(../fonts/Georgia.ttf);
+}
+
+@mixin font($color,$size) {
+    color: $color;
+    font-size: $size;
+    font-family: 'PT Sans Narrow';
+}
+
+@mixin georgia($color,$size) {
+    color: $color;
+    font-size: $size;
+    font-family: 'Georgia';
+}
