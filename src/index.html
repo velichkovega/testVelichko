@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head lang="ru">
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,7 +8,99 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="header__be-sure">
+            <p> 
+                <span class="element"></span><br>
+                <span class="in-the"></span>
+            </p>
+        </div>
+    </header>
+    <section class="press-me">
+        <div class="wrap__press-me">
+            <input type="text" class="press-me__input" placeholder="Enter your zip code">
+            <img src="img/10-layers.png" alt="img" class="press-me__img">
+            <p>
+                This is Photoshop's version  of <br>
+                Lorem Ipsum. 
+            </p>
+            <button class="press-me__btn">
+                Press me
+            </button>
+        </div>
+    </section>
+    <section class="document-photo">
+        <div class="document-photo__item">
+            <img src="img/5-layers1.png" alt="document">
+            <div class="document__text">
+                <p class="document-photo__title">Documents</p>
+                <p class="document-photo__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+            </div>
+        </div>
+        <div class="document-photo__item">
+            <img src="img/5-layers.png" alt="photo">  
+            <div class="document__text">
+                <p class="document-photo__title">Photos</p>
+                <p class="document-photo__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+            </div>          
+        </div>
+    </section>
+    <section class="heading">
+        <img src="img/2-layers.png" alt="img" class="heading__img">
+        <h1 class="heading__title">This is a Heading</h1>
+        <p>
+            This is Photoshop's version  of Lorem Ipsum. 
+            Proin gravida nibh vel velit auctor aliquet. 
+            Aenean sollicitudin, lorem quis bibendum auctor, 
+            nisi elit consequat ipsum, nec sagittis sem nibh id 
+            elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
+            <br><br><br>
+            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a 
+            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
+            inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis 
+            dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut 
+            imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, 
+            erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+        </p>
+        <img src="img/rec.png" alt="line" class="heading__line">
+    </section>
+    <section class="heading2">
+        <div class="heading2__img-wrapper">
+            <img src="img/2.png" alt="ok" class="heading2__img">
+            <img src="img/shadow.png" alt="" class="shadow">
+        </div>
+        <div class="heading2__text">
+            <div class="heading2__title">This is a Heading</div>
+            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu 
+                ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. 
+                Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. 
+                Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed 
+                fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. 
+                Suspendisse in orci enim.
+            </p>
+            <div class="heading2-btn">
+                <a href="#">Download</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="form-circle">
+            <form class="footer-form" method="GET" id="footerForm">
+                <input type="text" class="footer-form__input" placeholder="Name" required minlength="3">
+                <input type="text" class="footer-form__input" type="email" placeholder="email address" required minlength="3">
+                <textarea name="footer-form" class="footer-form__textarea" id="footerFormTextArea" cols="30" rows="10" placeholder="Message" required></textarea>
+                <button class="footer-form__btn" type="submit" form="footerForm"></button>
+            </form>
+        </div>
+    </footer>
+    <div class="copyright"> 
+        <p>© Copyright 2013 Css Author, All Rights Reserved.</p>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>

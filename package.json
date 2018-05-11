@@ -24,5 +24,8 @@
     "owl.carousel": "^2.2.0",
     "rimraf": "^2.6.2",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.6"
   }
 }
